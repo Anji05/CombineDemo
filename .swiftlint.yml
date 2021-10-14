@@ -1,0 +1,32 @@
+#disable set of enabled rules
+disabled_rules:
+- identifier_name
+- trailing_whitespace
+- comment_spacing
+
+#for turned off rules to opt in
+opt_in_rules:
+- empty_count
+
+#customize default values of certain rules
+line_length:
+  warning: 150
+  
+identifier_name:
+    min_length: 4
+#    excluded:
+#    - GlobalAPIKey
+
+#file_length:
+#    warning: 50
+#    error: 70
+
+
+#only_rules:
+#- colon
+#- vertical_whitespace
+
+#excluding certain files from linting
+excluded:
+- Pods
+#- CombineDemo/*/ContentView.swift

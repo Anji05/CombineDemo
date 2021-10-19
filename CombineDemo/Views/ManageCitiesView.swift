@@ -30,6 +30,7 @@ struct ManageCitiesView: View {
     
     var body: some View {
         List {
+            
             ForEach(user.cities, id: \.self) { city in
                 ZStack {
                     RoundedRectangle.init(cornerRadius: 10, style: .continuous)

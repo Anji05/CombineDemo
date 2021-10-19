@@ -46,7 +46,6 @@ struct ManageCitiesView: View {
                     .padding()
                 }
                 
-                
                 .swipeActions {
                     Button(role: .destructive) {
                         user.cities = user.cities.filter {$0 != city}

@@ -68,7 +68,7 @@ extension LocationService: CLLocationManagerDelegate {
         if let error = error as? CLError, error.code == .denied {
             locationError = .unauthorized
         } else {
-            locationError = .unableToDetermineLocation
+            locationError = .unableToDetermineLocationx
         }
         handleLocationRequestResult(.failure(locationError))
     }

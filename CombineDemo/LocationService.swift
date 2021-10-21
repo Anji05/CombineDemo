@@ -58,6 +58,8 @@ class LocationService: NSObject {
         while !(locationRequests.isEmpty) {
             let request = locationRequests.removeFirst()
             request(result)
+            
+            
         }
     }
 }

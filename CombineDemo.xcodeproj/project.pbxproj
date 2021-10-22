@@ -266,11 +266,10 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/report.xml",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n\n";
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" lint --use-stdin --reporter checkstyle > report.xml\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

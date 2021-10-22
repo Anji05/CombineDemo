@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+	<file name="/Users/anjaliaggarwal/Documents/CombineDemo/CombineDemo/LocationService.swift">
+		<error line="62" column="0" severity="warning" message="Limit vertical whitespace to a single empty line. Currently 2." source="swiftlint.rules.vertical_whitespace"/>
+	</file>
+</checkstyle>

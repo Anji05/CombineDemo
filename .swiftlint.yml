@@ -3,7 +3,6 @@ disabled_rules:
 - identifier_name
 - trailing_whitespace
 - comment_spacing
-
 #for turned off rules to opt in
 opt_in_rules:
 - empty_count

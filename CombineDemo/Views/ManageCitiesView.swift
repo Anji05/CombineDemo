@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct ManageCitiesView: View {
     @State var isSearchActive: Bool = false
@@ -63,7 +64,7 @@ struct ManageCitiesView: View {
         })
         .navigationTitle("Manage Cities")
         .navigationBarBackButtonHidden(true)
-        .navigationBarItems(leading: backButton)
+        .navigationBarItems(leading:backButton)
         .toolbar {
             ToolbarItemGroup(placement: .navigationBarTrailing) {
                 Button.init {
@@ -72,6 +73,9 @@ struct ManageCitiesView: View {
                     Image.init(systemName: "magnifyingglass")
                 }
                 .tint(Color.gray)
+                
+                
+                
                 
             }
         }
